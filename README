@@ -1,0 +1,28 @@
+~~~~~~~~~~          Assignment 3 - myterminal       ~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~   Shivani Poddar,201156152   ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Compile code : "gcc myterminal.c"
+Run 	     : ./a.out
+
+The code aims at simulating the basic workings of the shell.
+The following features have been covered:
+Spec 1 : Display requirement 
+Spec 2 : system commands with and without arguments
+Spec 3 : User defined commands:
+	pinfo
+	pindo pid
+	jobs
+	kjob
+	fg
+	overkill
+	quit 
+	ctrl-z
+
+Additional commands which have been coded : "cd" , "pid all" -> to list all commands active and their process ids.
+
+Part2 : ">" and "<" and "|" operators have also been covered.
+Spec 1 : Implement input-output redirection functionality
+Spec 2 : Implement command redirection using pipes
+Spec 3 : Implement i/o redirection + pipes redirection
+
+The struct of the process includes a pipeline for each process. 
